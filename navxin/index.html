@@ -21,10 +21,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="navxin">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/clin003/cdn/navxin/icons/Icon-192.png">
 
   <title>navxin</title>
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="https://cdn.jsdelivr.net/gh/clin003/cdn/navxin/manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -39,7 +39,7 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = 'main.dart.js';
+      scriptTag.src = 'https://cdn.jsdelivr.net/gh/clin003/cdn/navxin/main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
@@ -50,7 +50,7 @@
         // Wait for registration to finish before dropping the <script> tag.
         // Otherwise, the browser will load the script multiple times,
         // potentially different versions.
-        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        var serviceWorkerUrl = 'https://cdn.jsdelivr.net/gh/clin003/cdn/navxin/flutter_service_worker.js?v=' + serviceWorkerVersion;
         navigator.serviceWorker.register(serviceWorkerUrl)
           .then((reg) => {
             function waitForActivation(serviceWorker) {
