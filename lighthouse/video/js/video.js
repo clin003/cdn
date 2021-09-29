@@ -7,7 +7,7 @@
     var url2 = "https://tvv.tw/xjj/get/get3.php";
     var url3 = "https://www.kuaidoushe.com/video.php";//?_t=" + random;
     var url4 = "https://tvv.tw/xjj/tiktok/video.php";
-    var url5 ="https://tvv.tw/xjj/kuaishou/video.php";
+    var url5 = "https://tvv.tw/xjj/kuaishou/video.php";
 
     if (top != self) {
         window.top.location.replace(self.location.href);
@@ -35,6 +35,9 @@
                 break;
             case 4:
                 url = url4;
+                break;
+            case 5:
+                url = url5;
                 break;
             default:
                 url = url0;
