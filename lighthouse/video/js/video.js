@@ -5,7 +5,7 @@
     var url0 = "https://tvv.tw/xjj/get/get1.php";
     var url1 = "https://tvv.tw/xjj/get/get2.php";
     var url2 = "https://tvv.tw/xjj/get/get3.php";
-    var url3 = "http://www.kuaidoushe.com/video.php";//?_t=" + random;
+    var url3 = "https://www.kuaidoushe.com/video.php";//?_t=" + random;
 
     if (top != self) {
         window.top.location.replace(self.location.href);
