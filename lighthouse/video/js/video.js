@@ -1,11 +1,13 @@
 (function (window, document) {
     var gi = 1;
-    var gi_max = 3;//最大GET链接序号
+    var gi_max = 10;//最大GET链接序号
     // var random = Math.random(9);
     var url0 = "https://tvv.tw/xjj/get/get1.php";
     var url1 = "https://tvv.tw/xjj/get/get2.php";
     var url2 = "https://tvv.tw/xjj/get/get3.php";
     var url3 = "https://www.kuaidoushe.com/video.php";//?_t=" + random;
+    var url4 = "https://tvv.tw/xjj/tiktok/video.php";
+    var url5 ="https://tvv.tw/xjj/kuaishou/video.php";
 
     if (top != self) {
         window.top.location.replace(self.location.href);
@@ -31,6 +33,9 @@
             case 3:
                 url = url3;
                 break;
+            case 4:
+                url = url4;
+                break;
             default:
                 url = url0;
                 break;
@@ -41,7 +46,7 @@
     var url = "https://www.nihaowua.com/v/video.php";//+ random;
     var player = get('player');
     var randomm = function () {
-        player.src = url + "?_t" + Math.random();
+        player.src = url + "?_t=" + Math.random();
         player.play();
         console.log("开始播放: " + player.src);
         player.poster = "";
@@ -49,7 +54,7 @@
     bind(get('next'), 'click', randomm);
     bind(player, 'error', function () {
         console.log("播放器: 出错了！");
-        huanyuan();
+        // huanyuan();
         randomm();
     });
     bind(get('switch'), 'click', function () {
