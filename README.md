@@ -20,3 +20,8 @@ https://cdn.jsdelivr.net/gh/clin003/cdn@latest/assets/images/baicai.jpeg
 把域名中的 cdn 改为 purge 即可：
 
 https://purge.jsdelivr.net/gh/clin003/cdn/assets/images/baicai.jpeg
+
+```md
+![赞赏白菜林，多少不重要，1元也是支持](https://cdn.jsdelivr.net/gh/clin003/cdn/assets/images/zanalipay.jpg)  ![赞赏白菜林，多少不重要，1元也是支持](https://cdn.jsdelivr.net/gh/clin003/cdn/assets/images/zanweixin.jpg)
+```
+![赞赏白菜林，多少不重要，1元也是支持](https://cdn.jsdelivr.net/gh/clin003/cdn/assets/images/zanalipay.jpg)  ![赞赏白菜林，多少不重要，1元也是支持](https://cdn.jsdelivr.net/gh/clin003/cdn/assets/images/zanweixin.jpg)
